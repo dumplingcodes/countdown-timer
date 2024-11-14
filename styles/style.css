@@ -26,7 +26,7 @@ body{
 }
 
 .content h1{
-    font-family:'Lucida Sans Unicode';
+    font-family: "Sour Gummy", sans-serif;
     text-align: center;
 }
 .the-section .the-timer{
@@ -38,7 +38,7 @@ body{
 }
 
 .the-section .the-timer p{
-    font-family:'Segoe UI';
+    font-family: "Sour Gummy", sans-serif;
     font-size: 20px;
     margin-right: 20px;
 }
