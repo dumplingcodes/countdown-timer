@@ -1,12 +1,21 @@
 body{
-    background-color: rgb(239, 213, 180);
+    background-image: url("../assets/timer-bg.png");
+    background-size: cover;
 }
 .the-section{
     display: flex;
     place-items: center;
     flex-direction: column;
 }
+.the-section img{
+    margin-top: 100px;
+    align-self: center;
+    height:50vh;   
+}
 .the-section .content{
+    background-color: #ecb686;
+    width:50%;
+    border-radius:25px;
     align-content: center;
     
 }
@@ -15,18 +24,17 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.content img{
-    align-self: center;
-    height:50vh;
-    
-}
+
 .content h1{
     font-family:'Lucida Sans Unicode';
+    text-align: center;
 }
 .the-section .the-timer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+
 }
 
 .the-section .the-timer p{
